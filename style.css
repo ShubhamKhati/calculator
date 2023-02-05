@@ -44,3 +44,9 @@ button:hover{
 #equall{
    width: 74.3%;
 }
+@media(max-width:480px){
+    .calculator button{
+        width:3px;
+        padding:24.3px;
+    }
+}

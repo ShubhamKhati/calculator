@@ -13,15 +13,12 @@ body{
 }
 .calculator{
     border-radius: 4px;
-    padding: 10px;
     box-shadow: 0px 4px 4px 1px;
 }
 .calculator button{
-    width: 10px;
+    width: 30px;
     margin: 2px 0px;
-    padding: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 30px;
     border: none;
 
 }
@@ -32,7 +29,8 @@ body{
 #userinput{
     font-size: 30px;
     font-weight: 200;
-    width: 100%;
+    width: 98%;
+    margin: auto;
     direction: ltr;
     outline: none;
     border: none;
@@ -42,7 +40,7 @@ button:hover{
     background-color: rgba(76, 70, 70, 0.155);
 }
 #equall{
-   width: 74.3%;
+   width: 50%;
 }
 @media(max-width:480px){
     .calculator button{
